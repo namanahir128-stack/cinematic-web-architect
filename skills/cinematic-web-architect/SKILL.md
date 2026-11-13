@@ -4,18 +4,18 @@ description: Use when a user asks to build, redesign, debug, or evaluate a visua
 license: MIT
 compatibility: Works with Agent Skills readers; optional browser, Node, Blender, FFmpeg, and MCP tooling is connected independently when approved.
 metadata:
-  version: '9.0.0'
+  version: '9.1.0'
   format: 'one-file-enterprise-skill'
 ---
 
-# CINEMATIC WEB ARCHITECT — OUTCOME-FIRST MASTER SKILL v9
+# CINEMATIC WEB ARCHITECT — OUTCOME-FIRST MASTER SKILL v9.1
 
 **Mission:** Convert a brief into an **original, working, visually exceptional interactive website**, not just a nice-looking description, a rotating primitive, a static hero mockup, or an untested code dump. This single portable file contains the skill entry point, art-direction system, production workflows, architecture patterns, visual QA, technology decision rules, and optional tooling/MCP setup. It requires **no specific runtime or MCP just to be usable**.
 
 **Truth boundary:** This skill is a high-quality workflow and reference manual, **not an already-running MCP server**, a licensed asset library, a Blender installation, a guaranteed 10/10 design, or an autonomous hosting service. An agent must only use tools actually available, authorized, and working. Never claim it tested something it did not test.
 
 
-## V9 EXECUTION OVERRIDE — OUTCOME-FIRST CINEMATIC PRODUCTION
+## V9.1 EXECUTION OVERRIDE — OUTCOME-FIRST CINEMATIC PRODUCTION
 
 **Priority:** This section overrides earlier generic process recommendations when they conflict. The benchmark is not amount of code, number of effects, tool count or a self-reported award score; it is an original, convincing, responsive *working website* viewed and operated in a browser. A well-written plan with mediocre visuals is failure. Default to completing the website, not stopping at design notes. Do not label the model as weak or select a deliberately low-ambition path.
 
@@ -120,6 +120,18 @@ Creative premise: **'From silence in the bean to the first breath of aroma.'**
 ### Production escalation when the first attempt looks ordinary
 
 If first screenshot is weak, **stop writing new sections**. Make 2–3 visually distinct alternatives for the same hero shot, compare side-by-side, and select on real visual evidence. Keep final usable scenes coherent with the selected direction. If visual-asset tools cannot run, obtain user-provided or appropriately licensed inputs; present the limitation rather than manufacturing fake 'cinematic 3D' proof. Favor one superb interactive scene over ten mediocre ones. Once the hero is convincing, implement the transition and then expand.
+
+
+### V9.1 enforceable visual proof — do not report imagined quality
+
+For a full website build, produce **two genuinely different static hero styleframes** wherever rendering/image tools exist; select based on observable asset quality, lighting, typography and composition. A concept description is not a rendered proof. Produce an actual **1440x900 desktop** and **390x844 mobile** view of the selected composition. Preserve the frozen frame's visual quality before animation. If the host has no renderer/browser, label these gates **NOT RUN**, not PASS.
+
+Create a real evidence set when project files can be written: `.cwa/reference_matrix.md`, `.cwa/art_direction.md`, `.cwa/media_manifest.json`, `.cwa/proof/hero-desktop.png`, `.cwa/proof/hero-mobile.png`, `.cwa/proof/transition-mid.png`, and `.cwa/qa-report.md`. This is an output contract, **not permission to invent files**. A screenshot filename counts only if bytes exist and the image was visually inspected. Use browser screenshots/recordings, not code comments, to decide rebuild vs polish.
+
+Independent critic: first list what each actual screenshot shows; identify weak hero assets, ugly crop, flat lighting and layout collisions before suggesting decorative effects. If art fundamentally fails, **replace/redesign the shot** instead of adding CSS glow or a new library. Record three highest-impact fixes, recapture the exact states after each pass, and compare evidence. A user's 5–6/10 aesthetic evaluation overrules any agent self-score.
+
+Use any connected Figma/Paper design canvas, original media generation, reference forensics, React Bits/Motion Primitives, Spline/Theatre.js, GSAP, REA and Chrome/Playwright tools **only when the tool materially improves the actual image or interaction**, its version/licenses are checked, and its use is authorized. A Skill alone is not an MCP installation. Keep one existing skill, never add a forced tool swarm.
+
 
 ## READ THIS FIRST — activation and navigation
 
@@ -962,3 +974,157 @@ The independent critic should receive browser recordings, motion contact sheets,
 ## 30. Final rule
 
 **Deliver the experience, not a lecture.** Determine the best art direction, create or acquire real assets legitimately, select the correct rendering approach, build runnable source, inspect output, repair significant defects, and supply the result. Production sophistication is measured by what the visitor actually sees and feels, not line count, library count, source count, or unsupported "award-level" guarantees.
+
+
+# PART V — V9 VERIFIED TOOL INTELLIGENCE, BENCHMARKING & COPYABLE VISUAL QA
+
+> This section is a **verified source and tool decision aid**, not an installation manifest. Links were checked against the original providers/repositories in November 2026; recheck version, licensing and configuration at project time. The skill does not contain their binaries, models, assets, or MCP server processes.
+
+## 31. Research-backed creative engineering reference matrix
+
+| Reference / source | What the source actually demonstrates | Transferable technique | What NOT to assume |
+|---|---|---|---|
+| [Trionn creator case study](https://tympanus.net/codrops/2026/07/15/the-architecture-behind-trionn-coordinating-gsap-three-js-lenis-and-web-audio/) | Studio explains GSAP/ScrollTrigger, direct Three.js, Lenis on GSAP ticker, interactive symbol and Web Audio as one experience | Coordinate multiple input modalities into the same visual state; tie gesture and audio to hero | Installing GSAP alone will make the design extraordinary |
+| [Sketching the Impossible code](https://github.com/ITomPoland/portfolio-itom) | Actual open React/R3F/GSAP illustrated-plane source, room setup, adaptive optimization | High-art 2.5D illustrated planes can outperform mediocre procedural 3D | MIT code permits reuse of personal textures, imagery, writing or other protected art — it does **not** |
+| [REA official project](https://github.com/morluto/rea) | Guided reverse-engineering analysis with separate skill and MCP/CLI setup; cites evidence/limitations | Inspect a reference's observable transitions, events and asset boundaries before implementing an original equivalent | Automatically reproduces third-party licensed site source or improves art direction |
+| [Lusion scroll sync demo](https://github.com/lusionltd/WebGL-Scroll-Sync) | Specialized DOM/WebGL synchronization technique | Choose canvas alignment deliberately for native scroll; measure overscan trade-off | Demo is entire lusion.co source; padded canvas universally required |
+| [GSAP official skills](https://github.com/greensock/gsap-skills) | Versioned animation patterns, timelines, scroll triggers, framework cleanup | Reuse verified timeline patterns for reversible motion | A library substitutes for visual concept, asset quality or authoring |
+| [Anthropic frontend-design skill](https://github.com/anthropics/claude-code/tree/main/plugins/frontend-design) | Distinctive typography, bold layout and aesthetic choices before implementation | Stronger design taste and avoidance of cookie-cutter UI | It includes artistic assets or a browser runtime by installing this skill |
+| [React Bits](https://github.com/DavidHDev/react-bits) | Customizable interactive React components, registry and creative asset tools | Use a *limited* number of polished secondary interactions | Ready-made backgrounds are a complete bespoke cinematic site; license is unrestricted MIT — verify Commons Clause |
+| [Figma official MCP](https://developers.figma.com/docs/figma-mcp-server/) | Structured read/write design context and code/design round-trip on supported clients | Author/inspect real editable design frames before runtime coding | MCP turns an arbitrary idea into great production code automatically |
+| [Paper MCP](https://paper.design/docs/mcp) | HTML/CSS-oriented editable canvas, read/write via MCP with Paper Desktop | Iterate typography, layout, composition with spatial visibility | Paper MCP is available without setup/desktop app |
+| [Spline export docs](https://docs.spline.design/exporting-your-scene/web/exporting-as-code) | Export scenes to supported runtimes, with interaction/animation limitations by target | Prototype spatial composition with authored assets and integrate into app | All target exports preserve all editor behaviors; test actual export |
+| [Theatre.js studio](https://www.theatrejs.com/docs/latest/manual/studio) | Editable timelines/keyframes for interactive scenes | Author actual camera/object choreography instead of guessing constants | Editor authoring replaces browser QA or loading optimization |
+| [Playwright screenshot & visual tests](https://playwright.dev/docs/api/class-page) | Deterministic viewport screenshots, input, screenshot comparison | Capture proof and regressions at real render states | Static images alone prove animation quality or artistic excellence |
+| [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Inspect live browser, network/console/screenshot and performance traces | Find real stalls/overlap/layout issues, validate repairs | Safe to connect personal authenticated browser profile without review |
+
+**Research-to-build priority:** Use the 2–3 *most relevant* references. Record exactly what was learned and the source evidence. Avoid copying 20 visual motifs into one incoherent product.
+
+## 32. Tool-routing rules that avoid tool-driven generic design
+
+**Select tools according to what the shot demands:**
+
+- **A photographically believable product or food macro:** prioritize approved/original high-quality photographs, bespoke rendered assets or coherent generated frames. Three.js/Shader code only if genuine 3D interaction is needed.
+- **Luxury editorial site:** typography, composition, material close-ups and timing can dominate perceived quality. GSAP handles motion; Figma/Paper if available helps visualize the exact layout before coding.
+- **Illustrated narrative:** plan illustrated layers, palette matching, occlusion and consistent strokes; browser/WebGL depth and masking as necessary. Do not force AI 3D meshes.
+- **Mechanical product reveal or moving camera around a real object:** use good GLB/Blender/Spline-authored asset with light rig and carefully tested camera path; image sequence for costly noninteractive motion.
+- **Rich interactions:** choose GSAP, Motion, Rive, or a verified bespoke state machine based on event needs and existing stack. Do not stack unrelated animation engines and multiple rAF owners.
+- **Existing reference website:** use REA/browser observations and official code if legally available to discover **behaviors**, then design an original visual metaphor and composition for the requested brand.
+- **Component libraries:** React Bits/Magic UI are secondary helpers, not creative directors; inspect exact version and source license. React Bits currently includes MIT + Commons Clause restrictions for redistribution; do not assume unrestricted resale of its components.
+
+**Never prescribe a tool solely because it is trendy.** When direct media tools/paid APIs are absent, keep ambition high and make every visible element original and deliberate. “No tool” is not permission for fake photorealism or a generic template.
+
+## 33. Scene production contract — proof objects, not paragraphs
+
+Create 3–5 concrete shots depending on actual narrative need. For every shot, inspect the subject, materials, camera, composition, interaction and handoff. A sample (coffee is illustrative, not a mandatory design):
+
+```json
+{
+  "project": "specialty-coffee",
+  "concept": "From a single bean to a luminous first sip",
+  "palette": {"ink":"#1b1713","cream":"#eee4d4","ember":"#bd794c"},
+  "typography": {"display":"editorial high-contrast serif","body":"humanist grotesk"},
+  "scenes": [
+    {"id":"origin","hero":"single tactile roasted bean, macro surface grain and warm rim highlight","camera":"controlled macro push","interaction":"rub/rotate the bean to reveal an origin map","exit":"bean shadow becomes coffee grinder silhouette"},
+    {"id":"ritual","hero":"credible copper pour-over and textured paper filter","camera":"side-to-overhead move","interaction":"pour gesture changes bloom/steam with audio muted by default","exit":"falling stream becomes cup steam"},
+    {"id":"first-sip","hero":"ceramic cup and believable crema under morning light","camera":"slow settle with purposeful stillness","interaction":"reveal blend/tasting notes","exit":"resolved typography and real CTA"}
+  ],
+  "media_manifest": [],
+  "evidence": {"reference_captures":"NOT_RUN","styleframes":"NOT_RUN","desktop_qa":"NOT_RUN","mobile_qa":"NOT_RUN"}
+}
+```
+
+**Never treat this spec as a valid proof image.** Fill `media_manifest` with actual local paths, attribution/rights and file sizes only after assets exist. Each scene needs a composition that works as a still before being animated. If a real asset doesn't meet the shot, change the asset or art direction before fighting the graphics engine.
+
+## 34. Real browser QA recipe — create and run on the actual site
+
+The following is a **starter** to place in the built project's `tests/cinematic.visual.spec.mjs` after installing Playwright Test. It is **not pre-executed by the skill**. Adapt selectors and URL; avoid generating screenshots in the repository's public assets. If a built-in browser/visual QA tool is already connected, use that instead of adding a package.
+
+```js
+import { test, expect } from '@playwright/test';
+import { mkdir } from 'node:fs/promises';
+const url = process.env.CWA_URL ?? 'http://127.0.0.1:4173';
+const dir = '.cwa/proof';
+const checkpoints = [0, 0.18, 0.42, 0.68, 0.86, 1, 0.42, 0];
+
+for (const [label, viewport] of Object.entries({
+  desktop: {width: 1440, height: 900},
+  mobile: {width: 390, height: 844}
+})) {
+  test(`${label}: proof frames, scroll reversibility, no overflow`, async ({ page }) => {
+    await mkdir(dir, { recursive: true });
+    const errors = [];
+    page.on('pageerror', e => errors.push(String(e)));
+    page.on('response', r => { if (r.status() >= 400 && new URL(r.url()).origin === new URL(url).origin) errors.push(`${r.status()} ${r.url()}`); });
+    await page.setViewportSize(viewport);
+    await page.goto(url, { waitUntil: 'domcontentloaded' });
+    await page.evaluate(() => document.fonts?.ready);
+    await expect(page.locator('body')).toBeVisible();
+    for (let i = 0; i < checkpoints.length; i++) {
+      const p = checkpoints[i];
+      await page.evaluate(p => {
+        document.documentElement.style.scrollBehavior = 'auto';
+        const max = Math.max(0, document.documentElement.scrollHeight - innerHeight);
+        scrollTo(0, max * p);
+      }, p);
+      await page.waitForTimeout(500); // allow reasonable scene easing; tune per implementation
+      await page.screenshot({ path: `${dir}/${label}-${String(i).padStart(2,'0')}.png`, animations: 'allow' });
+      const overflow = await page.evaluate(() => document.documentElement.scrollWidth - innerWidth);
+      expect(overflow).toBeLessThanOrEqual(1);
+    }
+    expect(errors, `${label} page/network errors`).toEqual([]);
+  });
+}
+
+test('reduced motion keeps readable content', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  await page.goto(url, { waitUntil: 'domcontentloaded' });
+  await expect(page.locator('body')).toBeVisible();
+  // Extend this with real headings, CTA, touch gesture, and keyboard checks.
+});
+```
+
+**Usage (adapt to project):**
+
+```bash
+npm install --save-dev @playwright/test
+npx playwright install chromium
+# Start the actual production preview server first, for example npm run preview -- --host 127.0.0.1
+CWA_URL=http://127.0.0.1:4173 npx playwright test tests/cinematic.visual.spec.mjs
+```
+
+On Windows set `CWA_URL` in the current shell's supported syntax or use the default. For video capture enable Playwright Test `use.video = 'on'` in an appropriate config, or use Chrome DevTools MCP screencast/trace where permitted. ScrollTo is not enough to test virtual-scroll or sticky narrative progression: for custom controllers, use their real input simulation (wheel/touch) and additionally verify their exposed deterministic progress. Responsive correctness is more than pixel width: check type, cropped hero focal point, tap targets, keyboard, readable text, and reduced-motion alternative. Browser automation cannot validate original artistic quality without inspecting actual image/video outputs.
+
+## 35. Independent visual critique and creative regression policy
+
+The critic must not merely say “looks premium.” For each shot report:
+
+- **What is in the actual frame?** Cite the screenshot/recording filename. Identify focal subject, its extent, light direction, material cues, typography collision/crop and whether anything looks unfinished.
+- **Why is it weaker than the reference at the level of craft?** Compare shot structure and surface believability, *not* whether pixels are identical. Are reflected highlights, tactile scale cues, authored textures, lens choices and depth missing?
+- **What is the one highest-leverage rebuild?** Name concrete shot and artifact: e.g. replace a CSS bean ellipse with original macro bean photograph; re-render kettle under side light; move heading into negative-space region; change a jump cut to steam occlusion; rebuild mobile crop.
+- **How to verify?** Re-capture identical viewport and progress, check the exact defect and show before/after. If screenshots did not change or quality stays weak, do not claim improvement.
+
+**Two independent forms of review:**
+
+1. **Technical QA:** executable tests, no critical asset errors, scroll/reverse/gesture, performance on actual device, a11y/keyboard, responsive behavior.
+2. **Visual QA:** real image quality, art-directed composition, interaction meaning, pacing and transitions, brand coherence, independent critique, human rating.
+
+A human rating is the authoritative aesthetic feedback. **Never claim an 8/10, 9/10 or 10/10 rating** because a script produced screenshots, a model self-scored the design, or a page ran at 60fps. If user says 5–6/10, prioritize a creative rebuild, not another documentation rewrite.
+
+**Iteration order:** (1) hero asset, (2) composition/type, (3) scene-to-scene anchor, (4) motion timing, (5) mobile reframe, (6) interactions and micro-polish, subject to observed defects. After each pass, record what's materially improved and what's unverified. Do not create endless agent loops; stop at a sensible work budget with an honest outstanding-defects list if necessary.
+
+## 36. Generalization and acceptance benchmark
+
+One website cannot prove a reusable master skill. Verify with **at least two different aesthetic families**, keeping the skill and QA method unchanged:
+
+- **Benchmark A: Cinematic product story**, such as coffee, artisanal confectionery, jewelry or watchmaking. Requires material realism or a deliberately stylized equivalent, close-up hero, physically motivated transition and original interaction.
+- **Benchmark B: Illustrated spatial journey**, such as botanical archive or paper-world portfolio. Requires coherent 2.5D layers, perspective transitions, strong typography and notably different palette/asset pipeline.
+
+For each, use **a new original concept** and record whether the agent: discovered skill; produced real art assets; inspected reference; generated styleframe; built first vertical slice; ran live desktop/mobile QA; fixed actual visual defects; delivered runnable result. Record what failed rather than converting failure into a subjective pass score. A third WebGPU/physics cinematic project is optional and should be used only when the benchmark requires those technologies.
+
+## 37. Final v9 shipping contract
+
+**Call work completed only when:** runnable project exists, assets actually exist with rights/provenance, visual states are coherent, interaction is functional, mobile is deliberately designed, key browser checks have real evidence, and remaining defects/limitations are plainly disclosed. If these cannot be achieved in the available environment, provide the best actual artifact and describe the exact boundary.
+
+**Never replace design craft with tool enthusiasm.** This skill coordinates reference forensics, art direction, professional assets, kinetic storytelling, browser measurements and iterative review. The installed skill is not a tool server, image generator, native WebGL runtime or automatic award-winning design machine. Its value is the disciplined process that makes an agent execute — and prove — the best experience it can actually build.
