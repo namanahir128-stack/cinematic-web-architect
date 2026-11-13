@@ -4,15 +4,122 @@ description: Use when a user asks to build, redesign, debug, or evaluate a visua
 license: MIT
 compatibility: Works with Agent Skills readers; optional browser, Node, Blender, FFmpeg, and MCP tooling is connected independently when approved.
 metadata:
-  version: '8.0.0'
+  version: '9.0.0'
   format: 'one-file-enterprise-skill'
 ---
 
-# CINEMATIC WEB ARCHITECT — ENTERPRISE ONE-FILE SKILL v8
+# CINEMATIC WEB ARCHITECT — OUTCOME-FIRST MASTER SKILL v9
 
 **Mission:** Convert a brief into an **original, working, visually exceptional interactive website**, not just a nice-looking description, a rotating primitive, a static hero mockup, or an untested code dump. This single portable file contains the skill entry point, art-direction system, production workflows, architecture patterns, visual QA, technology decision rules, and optional tooling/MCP setup. It requires **no specific runtime or MCP just to be usable**.
 
 **Truth boundary:** This skill is a high-quality workflow and reference manual, **not an already-running MCP server**, a licensed asset library, a Blender installation, a guaranteed 10/10 design, or an autonomous hosting service. An agent must only use tools actually available, authorized, and working. Never claim it tested something it did not test.
+
+
+## V9 EXECUTION OVERRIDE — OUTCOME-FIRST CINEMATIC PRODUCTION
+
+**Priority:** This section overrides earlier generic process recommendations when they conflict. The benchmark is not amount of code, number of effects, tool count or a self-reported award score; it is an original, convincing, responsive *working website* viewed and operated in a browser. A well-written plan with mediocre visuals is failure. Default to completing the website, not stopping at design notes. Do not label the model as weak or select a deliberately low-ambition path.
+
+### The essential production loop
+
+1. **Observe:** Browse at least two closely relevant high-quality reference *experiences* when access exists; inspect desktop + mobile, multiple scroll positions and a signature gesture. Separate directly observed facts from inference; collect screenshots/video with permission. If browser unavailable, rely on verified public creator breakdowns rather than inventing what the live site does.
+2. **Extract:** Record transferable *mechanisms*, not brand identity or copied art: composition, focal hierarchy, storytelling verb, materials, scene continuity, perceived depth, scroll mapping, responsive treatment, audio, loading, performance. Obtain source/asset licenses separately; do not copy proprietary site content.
+3. **Invent:** Generate three genuinely different art directions; choose one by specificity, emotional impact, art feasibility, interaction memorability, differentiation and mobile viability. Produce a creative brief with a distinct style vocabulary, opening frame, two transitions and signature action. Don't default to dark/black, neon, gold, glass or 'AI startup' unless appropriate.
+4. **Prove visuals:** Create or source legally usable, stylistically coherent hero imagery/2.5D layers/3D assets *before* building the whole page. Render the first desktop/mobile still and at least one transition keyframe. Reject placeholder meshes, flat emoji, generic CSS gradients, obvious stock collages, stretched backgrounds, and overlapping typography as final visuals. For a scroll story, *asset quality is usually the main bottleneck*.
+5. **Build a vertical slice:** Deliver an executable first scene + adjacent transition + working interaction, not a ten-section mockup. Use image-sequence or video if that produces the best filmed motion, 2.5D for illustrated spatial worlds, bespoke 3D for necessary 6DoF interaction, DOM for readable content. Integrate only compatible, verified third-party code.
+6. **Observe your own build:** Run the site; record screenshots at beginning / middle / ending plus a forward/reverse scroll video. Test mobile portrait, desktop, touch/hold, rapid scroll, reduced motion. Diagnose clipping, layout collisions, bad light/materials, pixelated images, wrong scale, repeated transition jumps, dropped frames, missing assets, blank loading.
+7. **Critique independently and repair:** Compare screenshots and temporal recordings against the creative brief and references. Pick the three *largest perceptual defects*; fix the weakest scene or replace its asset/rendering method. Repeat until no major known defect or clearly report unresolved issues. A critic must not score from code comments or imagined screenshots. Human review takes precedence.
+
+**NON-NEGOTIABLE OUTPUT:** runnable source and launch instructions, 2+ representative actual screenshots (desktop/mobile) when browser available, an interaction/scroll verification note, source/asset license notes, explicit incomplete items. No fake metrics, no self-awarded 10/10 and no 'working' claims without execution.
+
+### Evidence-ranked design intelligence: reference → structure → original production
+
+Create a compact **Reference Mechanism Sheet** per selected site:
+- Identity: project URL, author/studio, publish date where known, license and inspected evidence.
+- Composition: foreground/midground/background, negative-space placement, color value contrast, typography relationship to hero.
+- Narrative: opening image, semantic motion verb, three dramatic beats, breathing/hold interval, closing visual.
+- Interaction: trigger, response, physically understandable affordance, reversibility, mobile equivalent, keyboard equivalent.
+- Engineering: verified library and renderer only when source/case study supports it; otherwise mark unknown.
+- Transfer: a *generalizable mechanism* for the user's unrelated subject, never clone visual assets, marks or wording.
+
+**Reference-video protocol:** When a user supplies a video/recording of a website, inspect 3–5 visual keyframes plus the timing of every major camera/scene change. Extract object paths, easing, occlusion, anchor locations, approximate depth layering and gestures. Translate to a structured shot list; reconstruct with *original* branding/assets, not a pixel copy. If REA is connected and permitted, use its website/JS inspection to gather evidence; its skill and MCP runtime are separate and REA does not guarantee website clone quality.
+
+### The creative acceptance sheet (fill this before implementation)
+
+- **Concept line:** This brand's world is ___, and the visitor physically does ___.
+- **Opening frame:** Subject, framing, lighting, background, typography safe zone, focal scale.
+- **Color script:** Palette shifts and why; do not enforce arbitrary 5-color rules.
+- **Material script:** Every hero surface has source, roughness/transmission, macro/micro texture, highlight and shadow intent.
+- **Shot sheet:** At least opening hero, first gesture, one transition, resolution; per-shot camera/subject motion and occlusion.
+- **Interaction contract:** Action → tactile feedback → state transition → reversal/touch/keyboard fallback.
+- **Asset map:** file/source, license/provenance, aspect, resolution, estimated transfer/decode size, coherence check.
+- **Technical path:** One chosen render strategy per scene; justified by shot needs instead of tool fashion.
+- **Quality veto:** If keyframes look generic, redo art direction/assets before expanding code.
+
+### Existing tool ecosystem — inspect current docs before selecting
+
+Do not reinvent professional components *or* glue together an uncurated component zoo. Tool availability is not evidence of quality. Select a component only if it advances the approved art direction.
+
+| Role | Verified resource and precise use | Common trap |
+|---|---|---|
+| Reference website behavior | REA (https://github.com/morluto/rea), optional website/JS inspection after separate setup and authorization; native browser/CDP/DevTools for visual evidence | Skill-only install does **not** install REA MCP; reconstruction is not original art direction |
+| Video → detailed motion prompt, full-page reference capture | MengTo Skills (https://github.com/MengTo/skills), especially video-to-superprompt, stitched-full-page-capture, html-to-interaction-prompts | A prompt generated from a recording is an analysis aid, not a performance-tested implementation |
+| Distinct design-language examples | Sharp Design (https://github.com/ostaver/Sharp-design), inspect its art direction and real output before reuse | Repository self-reported ratings are not independent proof of 9+/10 |
+| Motion microcomponents | Motion Primitives (https://github.com/ibelick/motion-primitives), CLI: npx motion-primitives list / add NAME, when React stack matches | Nice text/hover effects cannot replace coherent hero imagery and scenes |
+| Component discovery + optional AI generation | 21st MCP (https://21st.dev/mcp), current successor to old Magic MCP; tool availability depends on account and API authorization | Old @21st-dev/magic is a compatibility proxy; paid/AI operations not universal; don't hardcode credentials |
+| Existing designed Figma file → code / design context | Figma MCP (https://developers.figma.com/docs/figma-mcp-server/), remote endpoint https://mcp.figma.com/mcp with user authentication | Requires access/seat; does not invent original cinematic concept by itself |
+| Browser screenshot/trace/screencast | Chrome DevTools MCP (https://github.com/ChromeDevTools/chrome-devtools-mcp), or CLI/Playwright; test actual running site | Browser control requires separate install; never access private browsing profiles |
+| 2.5D drawn world | Source-backed pattern in https://tympanus.net/codrops/2026/06/11/sketching-the-impossible-a-3d-portfolio-built-without-a-single-3d-model/ | Flat geometry + authored imagery can be excellent; do not demand unnecessary Blender meshes |
+| Hybrid complex motion | Creator case study https://tympanus.net/codrops/2026/07/15/the-architecture-behind-trionn-coordinating-gsap-three-js-lenis-and-web-audio/ | A 371-frame WebP sequence is scene-specific, not an instruction to preload hundreds of decoded bitmaps |
+| 3D components/assets | Three.js, R3F, Drei, Blender, glTF-Transform, KTX2 and FFmpeg where actually installed/approved | Library count is not aesthetic quality; minimize runtime complexity and GPU load |
+
+For React Bits (https://reactbits.dev/), fetch current source and verify the license terms for each actual component; React Bits licensing is not interchangeable with MIT Motion Primitives. Prefer verified installation docs over memory. Never silently install an MCP or spend credits. Existing project dependencies should be reused after version inspection.
+
+### HIGH-LEVERAGE ASSET ROUTING: source real images / create 2.5D / pre-render / real-time 3D
+
+1. **Photographic subject:** Prefer commissioned/user-supplied or properly licensed, well-lit photography; art-direct the crop, lighting, lighting match and background removal. Real coffee, fabric and food close-ups rarely improve when approximated by CSS geometry.
+2. **Illustrated storytelling:** Generate several coherent stills from the same art-direction brief; separate foreground/midground/background into alpha layers; use mild dolly + scale/parallax and depth-aware relighting where appropriate. A layered illustrated scene often gives better art than poor procedural meshes.
+3. **Complex cinematic action:** Render a tightly directed Blender or licensed/generated video sequence; scrub frames only if random-access scroll precision is actually required. Use bounded decoding/cache, progressive formats and a static poster until assets are ready.
+4. **Tactile object inspection:** Use bespoke or licensed GLB with believable materials and matching environment; reserve runtime Three.js/WebGL for camera-parallax, reflections, custom picking or physical effects that cannot be pre-rendered.
+5. **Semantic content:** DOM text, links, navigation, checkout, focus and forms remain HTML/CSS; synchronize visual layers rather than rasterizing readable content into canvas.
+
+**Do not choose modality based on the model's presumed strength.** Choose the strongest feasible production path from actual tool access, input assets, licensing and the art proof. Missing optional technology must not justify a generic design: procure or create strong still assets and use restrained, precise motion.
+
+### Why visual results stay 5–6/10: mandatory failure search
+
+Check these first, not 'add more particles':
+1. **Weak subject:** main object is primitive, poorly lit, disproportionate, or photographically fake → replace asset/lighting.
+2. **Wrong composition:** hero subject and text fight, no quiet space, focal object too small/large, unplanned crop → redesign frame.
+3. **Incoherent shot transitions:** hard cuts or arbitrary layout jumps → use matching silhouettes, camera continuity, occluders, controlled transition.
+4. **No cohesive art identity:** photographic image then cartoon asset then plastic 3D → select one authored treatment and color grade.
+5. **No weight:** uniform animation speed, scrolling too fast, overlapping active scenes, no readable rest intervals → retime energy curve.
+6. **Mobile is an afterthought:** safe zones, object scale, readability, touch gestures and GPU budget are broken → design mobile keyframes separately.
+7. **Premature polish:** glow, grain, hover effects and transitions added to an unconvincing hero → fix composition and assets before micro-effects.
+
+**Prioritize fixes by:** perceived visual impact × likelihood of success / implementation cost. Any change to reference visuals must preserve original expression and licensing boundaries. When feedback says '5/10', never argue from code quality; inspect real output and target the largest perceptual deficiency.
+
+### Visual QA: actual measurements, not pretend strict universal numbers
+
+Use a tiered quality report:
+- **P0 blocker:** blank/cropped hero, major overlap, no working scroll, missing assets, JS errors, unusable CTA or touch.
+- **P1 major:** poor hero asset, visible animation discontinuity, unreadable text, inconsistent palette/lighting, memory blowup, reduced-motion failure.
+- **P2 polish:** microanimation, minor color/kerning, nonessential postFX.
+- Capture actual start/mid/end frames at desktop + mobile. Continuous recording for scroll motion and gestures where browser tools exist. Test forward, reverse, rapid scroll and first-load.
+- Quality grades must specify what was observed and explain 3 prioritized fixes, not make claims from a repository README or static source.
+- Check *meaningful* Web Vitals, network timings and p95 frame durations with hardware/viewport specified; avoid fabricated universal 60fps or 1px drift guarantees.
+- A human 5–6/10 overrides an agent's automated 9/10. The response must separate working, visually approved and unverified.
+
+### Example creative implementation: specialty coffee (DO NOT use as a universal template)
+
+Creative premise: **'From silence in the bean to the first breath of aroma.'**
+- Opening: editorial pale parchment background; one macro coffee bean, sculptural side light, restrained typography and hand-drawn origin annotation. A compelling real material, no spinning torus.
+- Gesture: hold a tactile grinder control; progress moves bean through a tightly directed crush/grind transition; soft audio only after user gesture.
+- Scroll: foreground grounds become swirling particle occlusion to hide cut to a filmed espresso extraction; coffee liquid occupies hero frame while text rests in a calm zone.
+- Resolution: ceramic cup in soft warm daylight, atmospheric steam, product/order CTA rendered as semantic DOM.
+- Better than a simple 3-scene template only if each transition preserves subject position, scale and light direction. Verify actual assets and capture frames; don't claim this shot list is already built.
+
+### Production escalation when the first attempt looks ordinary
+
+If first screenshot is weak, **stop writing new sections**. Make 2–3 visually distinct alternatives for the same hero shot, compare side-by-side, and select on real visual evidence. Keep final usable scenes coherent with the selected direction. If visual-asset tools cannot run, obtain user-provided or appropriately licensed inputs; present the limitation rather than manufacturing fake 'cinematic 3D' proof. Favor one superb interactive scene over ten mediocre ones. Once the hero is convincing, implement the transition and then expand.
 
 ## READ THIS FIRST — activation and navigation
 
